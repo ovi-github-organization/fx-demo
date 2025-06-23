@@ -13,6 +13,7 @@ import (
 )
 
 func main() {
+	GHAS()
 	app := fx.New(
 		fx.Provide(
 			NewHTTPServer,
